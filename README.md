@@ -11,4 +11,7 @@ https://www.udemy.com/course/jmeter-step-by-step-for-beginners/
 3. Performance testig using JMeter:
 https://www.udemy.com/course/performance-testing-using-apache-jmeter-arabic/
 
+4. Run JMeter from Command-line:
+https://www.numpyninja.com/post/run-jmeter-and-generate-html-dashboard-report-from-command-line-non-gui-mode
+
 

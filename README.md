@@ -1,4 +1,4 @@
-# Performance_Test001
+# JMeter_Test001
 
 ## Repo files overview:-
 

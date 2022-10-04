@@ -14,7 +14,8 @@
     - Open the page for the picture of the day (today) and extract the jpg image using
     - Open the page for the jpg image  
 * **Test 3:** [n threads, 1 request] Connect to Open Weather Map REST API
-    - The request uses an input CSV data file containing cityName & appId
+    - The request uses an input CSV data file containing cityName & appId    
+    - **Required:** add your appId to data file the run the test
     - The maximum number of threads is set to 10.
     - Actual count n = min(10, number of rows in the dataset file)
 

@@ -1,5 +1,11 @@
 # JMeter_Test001
 
+
+## TODO list:-
+
+1. Add all the necessary files to the apache-jmeter folder
+2. Add more JMeter tests
+
 ## Repo files overview:-
 
 * Test 1: [1 thread, 1 request] Simple HTTP request to open Google.com 

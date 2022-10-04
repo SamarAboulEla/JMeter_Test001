@@ -2,12 +2,19 @@
 
 ## Repo files overview:-
 
-- Test 1: Simple HTTP request to open Google.com [1 thread]
-- Test 2: description
+* Test 1: [1 thread, 1 request] Simple HTTP request to open Google.com 
+* Test 2: [1 thread, 3 requests] Open APOD, open html link in the page, open image in the page
+    - Connect to NASA'S API (Astronomy Picture of the Day: APOD) and extract HTML links using regular expression extractor
+    - Open the page for the picture of the day (today) and extract the jpg image using regular expression extractor
+    - Open the page for the jpg image
+
 
 ## References:-
 
-1. Performance testing Basics:
+1. General : Guide for formatting the repo's readme file
+https://cloudaffaire.com/how-to-write-readme-md-using-markdown/
+
+2. Performance testing Basics:
 https://www.udemy.com/course/performance-testing-basics/
 
 2. JMeter for Beginners:

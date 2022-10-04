@@ -1,6 +1,10 @@
 # Performance_Test001
 
-Check the following links:-
+Repo files overview:-
+
+TODO: add description to each jmx file
+
+References:-
 
 1. Performance testing Basics:
 https://www.udemy.com/course/performance-testing-basics/

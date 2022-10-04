@@ -2,9 +2,7 @@
 
 ## Repo files overview:-
 
-TODO: add description to each jmx file
-
-- Test 1: description
+- Test 1: Simple HTTP request to open Google.com [1 thread]
 - Test 2: description
 
 ## References:-

@@ -6,6 +6,9 @@
 1. Add all the necessary files to the apache-jmeter folder
 2. Add more JMeter tests
 
+## **Notes:-**
+* The following are required for ant build 'build.xml' and 'ant-jmeter-1.1.1.jar'
+
 ## Repo files overview:-
 
 * **Test 1:** [1 thread, 1 request] Simple HTTP request to open Google.com 

@@ -1,0 +1,10 @@
+trigger:
+- none
+
+# Use self-hosted agent
+pool:
+  name: testing
+
+steps:
+
+# TODO: add tasks

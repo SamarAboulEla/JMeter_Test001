@@ -24,10 +24,10 @@
 1. **[General]** Guide for formatting the repo's readme file:
 https://cloudaffaire.com/how-to-write-readme-md-using-markdown/
 
-2. Performance testing Basics:
+2. **Performance testing Basics:**
 https://www.udemy.com/course/performance-testing-basics/
 
-2. JMeter for Beginners:
+2. **JMeter for Beginners:**
 https://www.udemy.com/course/jmeter-step-by-step-for-beginners/
 
 3. Performance testig using JMeter:

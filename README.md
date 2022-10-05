@@ -3,9 +3,8 @@
 
 ## TODO list:-
 
-1. Add all the necessary files to the apache-jmeter folder
-2. In test 3, change how to reference the csv data file (send as a parameter, instead of hard-coding in the jmx file)
-3. Add the rest of JMeter tests (requests using varaibles, timestamps, JSON extractor, etc.)
+1. In test 3, change how to reference the csv data file (send as a parameter, instead of hard-coding in the jmx file)
+2. Add the rest of JMeter tests (requests using varaibles, timestamps, JSON extractor, etc.)
 
 ## **Notes:-**
 * The following are required for ant build: 'build.xml' and 'ant-jmeter-1.1.1.jar'

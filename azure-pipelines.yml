@@ -8,3 +8,15 @@ pool:
 steps:
 
 # TODO: add tasks
+
+#Attempt 1: run jmeter from cmd 
+
+#Attempt 2: use Azure plugin for running jmeter
+
+#Attempt 3: use ant build 
+#NOTE: Tried this method. It works
+#PROBLEM: Method seems complicated (because of extra ant build steps & setup steps, while the jmeter can be run on its own)
+
+#Attempt 4: use taurus runner (requires knowledge & installation for blazemeter & taurus)
+#PROBLEM: Taurus installation on windows produces error [access denied]
+

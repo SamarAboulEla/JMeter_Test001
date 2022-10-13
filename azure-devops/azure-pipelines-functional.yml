@@ -1,1 +1,47 @@
+trigger:
+- none
 
+# Use self-hosted agent
+pool:
+  name: testing
+
+steps:
+
+# TODO: add tasks
+
+#Attempt 1: run jmeter from cmd 
+
+#Attempt 2: use Azure plugin for running jmeter
+
+#Attempt 3: use ant build 
+#NOTE: Tried this method. It works
+#PROBLEM: Method seems complicated (because of extra ant build steps & setup steps, while the jmeter can be run on its own)
+
+# Add "sed" command to change name of input jmx test file (used in the ant build xml file) 
+- task: CmdLine@2
+  displayName: Ant Build for Functional Test
+  inputs:
+    script: |
+      source /etc/profile.d/ant.sh
+      ant -version
+      ant -f build-functional.xml
+      echo $(Pipeline.Workspace)
+      echo $(System.DefaultWorkingDirectory)
+      
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: $(xmlResultsFileName)
+    searchFolder: '$(System.DefaultWorkingDirectory)/results/unit/'
+
+# If you want to publish a simple HTML document to AZDO in a seperate tab then do the following:
+- task: publishhtmlreport@1
+  displayName: Publish HTML Report in a seperate tab 
+  inputs:
+    htmlType: 'genericHTML'
+    htmlPath: '$(Build.SourcesDirectory)/results/html/$(htmlResultsFileName)'
+    
+
+
+#Attempt 4: use taurus runner (requires knowledge & installation for blazemeter & taurus)
+#PROBLEM: Taurus installation on windows produces error [access denied]

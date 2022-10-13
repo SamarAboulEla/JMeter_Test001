@@ -10,6 +10,7 @@ steps:
 # TODO: add tasks
 
 #Attempt 1: run jmeter from cmd 
+#Problem: we need to run jmeter.sh to be able to run jmeter from linux.
 
 #Attempt 2: use Azure plugin for running jmeter
 
